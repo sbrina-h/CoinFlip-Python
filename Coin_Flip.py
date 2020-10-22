@@ -15,8 +15,8 @@ for x in range(rounds):
 
     if choice[0].lower() == result:
         score += 1
-        print("You chose right!")
+        print("You chose right.")
     else:
-        print("You chose wrong!")
+        print("You chose wrong.")
 
 print(f"The final score is {score} out of {rounds}.")
